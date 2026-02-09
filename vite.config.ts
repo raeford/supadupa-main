@@ -7,7 +7,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   publicDir: "./public",
-  base: "./",
+  base: "/supadupa-main/",
   css: {
     postcss: {
       plugins: [tailwind()],
@@ -19,3 +19,5 @@ export default defineConfig({
     },
   },
 });
+
+
